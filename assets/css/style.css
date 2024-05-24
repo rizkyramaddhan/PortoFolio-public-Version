@@ -459,6 +459,109 @@ main {
   box-shadow: 5px 5px 0 0 var(--dark-color);
 }
 
+.portofolio-box .portofolio-text span {
+  display: inline-block;
+  padding: 8px 20px;
+  background: var(--primary-color);
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 30px;
+  margin-bottom: 18px;
+}
+
+.portofolio-box .portofolio-text h4 {
+  color: var(--dark-color);
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.portofolio-box .portofolio-text .colored-btn {
+  font-size: 12px;
+}
+
+/* Testimonials Section */
+.feature-box .img {
+  max-width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid #373737;
+}
+
+/* owl */
+/* Center-aligns the dots container */
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots .owl-dot {
+  display: inline-block !important;
+  vertical-align: top !important;
+  width: 12px !important;
+  height: 12px !important;
+  background: transparent !important;
+  border: 1px solid var(--dark-color) !important;
+  border-radius: 50% !important;
+  margin: 0 5px !important;
+  cursor: pointer !important;
+  transition: background 0.3s, border-color 0.3s !important;
+}
+
+.owl-dots .owl-dot:hover {
+  background: var(--dark-color) !important;
+}
+
+.owl-dots .owl-dot.active {
+  background: var(--dark-color) !important;
+  border-color: var(--dark-color) !important;
+}
+
+/* contact section */
+/* .conctact-form {
+  border: 2px solid var(--dark-color);
+  padding: 35px;
+  background: #fff;
+}
+
+.conctact-form .lead {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+.conctact-form .form-control {
+  border-radius: 0;
+  border: 1px solid var(--dark-color);
+  box-shadow: none;
+  padding: 0.575rem 0.75rem;
+} */
+
+/* footer */
+footer {
+  background: var(--dark-color);
+}
+
+footer .icon {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 70px;
+}
+
+footer .icon a i {
+  padding-right: 20px;
+}
+
+footer .footer-text {
+  color: #fff;
+  font-size: 18px;
+  width: 600;
+}
+
 @media (max-width: 1200px) {
   .home-section .home-intro h1 {
     font-size: 60px;
@@ -480,6 +583,19 @@ main {
 @media (max-width: 991px) {
   .section-heading h3 {
     font-size: 45px;
+  }
+}
+
+/* @media (max-width: 767px) {
+  .conctact-form {
+    padding: 25px;
+  }
+} */
+
+@media (max-width: 767px) {
+  .portofolio-box .portofolio-text h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
   }
 }
 
