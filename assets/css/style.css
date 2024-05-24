@@ -549,7 +549,7 @@ footer .icon {
   align-items: center;
   justify-content: center;
   display: flex;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 footer .icon a i {
@@ -558,7 +558,7 @@ footer .icon a i {
 
 footer .footer-text {
   color: #fff;
-  font-size: 18px;
+  font-size: 10px;
   width: 600;
 }
 
